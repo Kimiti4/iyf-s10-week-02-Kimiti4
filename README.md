@@ -1,48 +1,60 @@
-# Week 01: Web Foundations
+# Week 2 Portfolio - CSS Mastery
+
 ## Author
-- **Name:** Amos Kimiti  
-- **GitHub:** [@Kimiti4](https://github.com/Kimiti4)  
-- **Date:** February 24, 2026  
+Amos Kimiti
+
+## Repository Name
+iyf-s10-week-02-Kimiti4
 
 ## Project Description
-This project is a multi-page personal portfolio website built as part of Week 01 coursework.  
-The goal was to practice writing clean HTML, using semantic elements, building accessible pages, and deploying a static site using GitHub Pages.
+This project is a responsive personal portfolio website built for Week 2: CSS Mastery. It demonstrates CSS fundamentals, the box model, typography systems, color systems, Flexbox, CSS Grid, and mobile-first responsive design.
 
-The site includes a home page, about page, projects showcase, and a contact page with a fully structured and accessible contact form.
+## Pages Included
+- Home page
+- Projects page
+- Contact page
+- Box model practice page
 
 ## Technologies Used
 - HTML5
-- VSCode
-- Chrome Developer Tools
-- Git & GitHub
-- GitHub Pages
+- CSS3
+- Google Fonts
+- Flexbox
+- CSS Grid
+- Responsive Design
 
 ## Features
-- Semantic HTML structure using modern HTML elements
-- Accessible navigation and content (labels, alt text, proper headings)
-- Multi-page layout (Home, About, Projects, Contact)
-- Fully functional contact form with validation
-- Deployed live using GitHub Pages
+- Shared external stylesheet across all pages
+- Typography system using CSS variables
+- Color scheme using CSS variables
+- Responsive navigation
+- Hero section
+- Reusable card components
+- Responsive projects grid
+- Styled contact form
+- Hover and focus states
+- Box model practice examples
+
+## Responsive Breakpoints
+- Mobile: base styles
+- Tablet: 768px and above
+- Desktop: 1024px and above
+- Large Desktop: 1280px and above
 
 ## How to Run
-1. ## How to Run
-`This is a static HTML project.  
-Simply open `index.html` in your browser, or visit the live demo link below.`
+1. Clone or download the repository
+2. Open the folder in VS Code
+3. Open `index.html` in the browser
 
-## Lessons Learned
+## Learning Goals Covered
+- CSS reset
+- Typography scale
+- Color system
+- Box model practice
+- Flexbox layout
+- CSS Grid layout
+- Mobile-first responsive design
+- Hover, transition, and focus states
 
-- Using Semantic HTML to structure web pages
-- How to deploy live static site on Github
-- Creating HTML forms, contact forms
-- 
-
-## Challenges Faced
-- Resolving Git push conflicts when the remote repository had changes
-- Editing poorly written code into Semantic HTML
-- Inserting a picture into GitHub
-
-## Screenshots (optional)
-![Screenshot description](images/Screenshot%20(5).png)
-
-## Live Demo (if deployed)
-- [My Webpage](https://kimiti4.github.io/iyf-s10-week-01-Kimiti4/)
+## Website
+([My Website](https://kimiti4.github.io/iyf-s10-week-01-Kimiti4/))
