@@ -1,0 +1,155 @@
+/* =========================
+   BOX MODEL PRACTICE
+========================= */
+.box-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.demo-box {
+  width: 200px;
+  padding: 30px;
+  border: 5px solid #111;
+  margin: 10px;
+  background-color: #93c5fd;
+  text-align: center;
+  font-weight: bold;
+}
+
+.broken-box {
+  width: 300px;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  background: #60a5fa;
+  color: white;
+  border-radius: 8px;
+}
+
+.practice-card {
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: var(--shadow-sm);
+}
+
+.practice-card img {
+  width: 100%;
+  display: block;
+}
+
+.practice-card-content {
+  padding: 20px;
+}
+
+.practice-card-content h3 {
+  margin-bottom: 15px;
+}
+
+.practice-card-content p {
+  margin-bottom: 20px;
+}
+/* =========================
+   GRID PRACTICE
+========================= */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.magazine-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.mag-header,
+.mag-sidebar,
+.mag-main,
+.mag-footer {
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.75);
+}
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* Tablet */
+@media (min-width: 768px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects-grid,
+  .grid,
+  .skills-grid,
+  .gallery,
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-layout {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .projects-grid,
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .magazine-layout {
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+  }
+
+  .mag-header { grid-area: header; }
+  .mag-sidebar { grid-area: sidebar; }
+  .mag-main { grid-area: main; }
+  .mag-footer { grid-area: footer; }
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .container {
+    width: min(1200px, 92%);
+  }
+}
+
+/* Smaller screens only */
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

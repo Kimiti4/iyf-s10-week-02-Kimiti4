@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Amos Kimiti</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+
+<body class="contact-page">
+  <header class="container">
+    <nav aria-label="Primary navigation">
+      <a href="index.html" class="logo">Amos Kimiti</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Contact</h1>
+        <p class="hint">Send me a message using the form below.</p>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section class="contact-layout">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Contact details</legend>
+
+          <div class="row">
+            <div>
+              <label for="fullName">Full Name <span aria-hidden="true">*</span></label>
+              <input
+                id="fullName"
+                name="fullName"
+                type="text"
+                required
+                placeholder="e.g., Amos Kimiti"
+                autocomplete="name"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="e.g., karamos473@gmail.com"
+                autocomplete="email"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                placeholder="e.g., +254 705 212 543"
+                autocomplete="tel"
+              />
+            </div>
+
+            <div>
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="collaboration">Collaboration</option>
+                <option value="questions">Questions</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your message</legend>
+
+          <div>
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              minlength="50"
+              placeholder="Write at least 50 characters…"
+            ></textarea>
+            <p class="hint">Minimum 50 characters.</p>
+          </div>
+
+          <div class="inline">
+            <input id="newsletter" name="newsletter" type="checkbox" />
+            <label for="newsletter">Subscribe to my newsletter</label>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <aside class="contact-sidebar">
+        <h2>Other Ways to Reach Me</h2>
+        <ul>
+          <li>Email: <a href="mailto:karamos473@gmail.com">karamos473@gmail.com</a></li>
+          <li>Location: Nairobi, Kenya</li>
+          <li>
+            GitHub:
+            <a href="https://github.com/Kimiti4" target="_blank" rel="noopener noreferrer">Kimiti4</a>
+          </li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>About</h3>
+        <p>Responsive portfolio work, form design practice, and frontend growth.</p>
+      </div>
+      <div>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <p>Email: karamos473@gmail.com</p>
+        <p>GitHub: Kimiti4</p>
+      </div>
+      <div>
+        <h3>Status</h3>
+        <p>Open to learning, collaboration, and frontend opportunities.</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Amos Kimiti</p>
+  </footer>
+</body>
+</html>
