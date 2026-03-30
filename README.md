@@ -51,10 +51,10 @@ This project is a responsive personal portfolio website built for Week 2: CSS Ma
 - Typography scale
 - Color system
 - Box model practice
+
+## Website
+[My Website] [http://kimiti.portfoio.com/]
 - Flexbox layout
 - CSS Grid layout
 - Mobile-first responsive design
 - Hover, transition, and focus states
-
-## Website
-([My Website](https://kimiti4.github.io/iyf-s10-week-01-Kimiti4/))
