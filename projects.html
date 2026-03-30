@@ -15,25 +15,92 @@
 <body class="projects-page">
   <header class="container">
     <nav aria-label="Primary navigation">
+      
+      <!-- Logo OUTSIDE ul  -->
       <a href="index.html" class="logo">Amos Kimiti</a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+
+      <!-- Checkbox toggle -->
+      <input type="checkbox" id="menu-checkbox">
+
+      <!-- Hamburger -->
+      <label for="menu-checkbox" class="menu-toggle">☰</label>
+
+      <!-- Navigation -->
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+
     </nav>
 
-    <section class="hero" "section">
+    <section class="hero">
       <div class="hero-text">
         <h1>Projects</h1>
         <p class="lead">Here are some projects that show my progress in HTML, CSS, forms, and responsive design.</p>
+        <article class="card">
+      <h3>Portfolio Website</h3>
+      <p>
+        A fully responsive personal portfolio showcasing frontend development skills,
+        layout systems, and UI consistency across multiple pages.
+      </p>
+
+      <ul>
+        <li>Mobile-first responsive design</li>
+        <li>Flexbox & Grid layouts</li>
+        <li>Reusable components (cards, navigation)</li>
+      </ul>
+
+      <p><strong>Tech:</strong> HTML, CSS</p>
+
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn btn-secondary">GitHub</a>
+    </article><br>
+    <article class="card">
+      <h3>Task Manager App</h3>
+      <p>
+        A dynamic task management application demonstrating DOM manipulation,
+        event handling, and real-time UI updates.
+      </p>
+
+      <ul>
+        <li>Add/remove tasks dynamically</li>
+        <li>Event delegation</li>
+        <li>Interactive UI updates</li>
+      </ul>
+
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn btn-secondary">GitHub</a>
+    </article><br>
+
+    <article class="card">
+      <h3>API Data Fetch App (In Progress)</h3>
+      <p>
+        Fetches and displays real-time data from an external API,
+        focusing on asynchronous JavaScript and error handling.
+      </p>
+
+      <ul>
+        <li>Fetch API integration</li>
+        <li>Loading & error states</li>
+        <li>Dynamic UI rendering</li>
+      </ul>
+
+      <p><strong>Tech:</strong> JavaScript, APIs</p>
+
+      <a href="#" class="btn">Coming Soon</a>
+    </article>
       </div>
     </section>
   </header>
 
   <main class="container">
     <section class="projects-grid" aria-label="Project cards">
+      <section>
+  
       <article class="card">
         <img src="images/Screenshot-7.png" alt="Home page preview for portfolio website" width="400" height="200">
         <h3>Portfolio Website</h3>

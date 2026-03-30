@@ -15,23 +15,33 @@
 <body class="about-page">
   <header class="container">
     <nav aria-label="Primary navigation">
+      
+      <!-- Logo OUTSIDE ul  -->
       <a href="index.html" class="logo">Amos Kimiti</a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" aria-current="page">About</a></li>
+
+      <!-- Checkbox toggle -->
+      <input type="checkbox" id="menu-checkbox">
+
+      <!-- Hamburger -->
+      <label for="menu-checkbox" class="menu-toggle">☰</label>
+
+      <!-- Navigation -->
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+
     </nav>
 
     <section class="hero">
       <div class="hero-text">
         <h1>About Me</h1>
-        <p class="lead">
-          I’m an engineering graduate learning web development and building practical frontend projects.
-        </p>
+        <p class="lead">Learn more about my background, skills, and journey in web development.</p>
       </div>
     </section>
+
   </header>
 
   <main class="container">
@@ -42,10 +52,19 @@
           I’m Amos Kimiti 👋. I’m interested in technology 💻 and engineering 🛠, and I’m building this site to
           practice semantic HTML, CSS, responsive design, forms, and accessibility.
         </p>
+        <p>
+    I am a Mechatronics Engineering graduate transitioning into frontend development,
+    combining a strong analytical and systems-thinking background with modern web technologies.
+    My focus is on building responsive, user-friendly interfaces with clean, maintainable code.
+  </p>
+   <p>
+    I approach development with an engineering mindset—breaking down problems,
+    designing structured solutions, and optimizing for performance and usability.
+  </p>
       </article>
-
+<h2>Skills</h2>
       <article class="card">
-        <h2>Skills</h2>
+        
         <ul>
           <li>HTML fundamentals and semantic structure</li>
           <li>Basic CSS layout and styling</li>
@@ -54,23 +73,56 @@
         </ul>
       </article>
     </section>
+    <section><h2>My Journey</h2>
+      <article class="card">
+  
+  <p>
+    My background in Mechatronics Engineering exposed me to mechanical systems,
+    electronics, and control systems, where precision and structured problem-solving are critical.
+  </p>
 
+  <p>
+    Through this, I developed a strong interest in software and user-facing systems,
+    which led me to web development. I started with HTML and CSS,
+    then progressed into JavaScript and dynamic interfaces.
+  </p>
+
+  <p>
+    I am currently focused on building real-world projects, improving my frontend skills,
+    and expanding into APIs and backend development to become a well-rounded full-stack developer.
+  </p>
+</article>
+    
+</section>
     <section>
       <h2>Education & Experience Timeline</h2>
       <div class="skills-grid">
         <article class="card">
           <h3>2025–2026</h3>
           <p>Building a web portfolio and learning frontend basics.</p>
-        </article>
+        </article><br>
         <article class="card">
           <h3>2022–2024</h3>
           <p>Practiced digital creativity and technology-related projects.</p>
-        </article>
+        </article><br>
+
         <article class="card">
-          <h3>Earlier</h3>
-          <p>Developed a strong interest in engineering, systems, and problem-solving.</p>
+          <h3>2017-2022</h3>
+          <h4> Dedan Kimathi University of Technology </h4>
+          <h4>BSc Mechatronics Engineering</h4>
+          <p>
+            Developed a strong interest in engineering, systems, and problem-solving.</p><br>
+            <p>Studied Mechatronics Engineering, combining mechanical, electrical, and computer engineering.</p>
         </article>
       </div>
+      <h3>Currently Learning</h3>
+      <article class="card">
+  <ul>
+    <li>APIs & backend development</li>
+    <li>Performance optimization</li>
+    <li>Advanced JavaScript patterns</li>
+  </ul>
+</article>
     </section>
   </main>
 
